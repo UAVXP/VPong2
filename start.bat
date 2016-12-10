@@ -1,0 +1,1 @@
+bin\love2d\lovec.exe --console .
