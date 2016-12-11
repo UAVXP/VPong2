@@ -36,3 +36,7 @@ function loadObjects()
 
 	print( "Loaded objects" )
 end
+
+function physicsUpdate( dt )
+	world:update( dt )
+end

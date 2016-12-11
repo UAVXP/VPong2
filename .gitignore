@@ -1,2 +1,6 @@
 bin/ide/
 libs_sources/
+temp/
+
+#*.bat
+*.love

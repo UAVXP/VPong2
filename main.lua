@@ -7,7 +7,7 @@ function love.load( arg )
 end
 
 function love.update( dt )
-	
+	physicsUpdate( dt )
 end
 
 function love.draw()
