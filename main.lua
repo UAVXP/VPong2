@@ -1,15 +1,20 @@
-require "physics"
-require "network"
-
 function love.load( arg )
-	loadWorld()
-	loadObjects()
+--	require( "physics" )
+--	require( "network" )
+--	loadWorld()
+--	loadObjects()
+
+	require( "entities" )
+	ents.Startup()
+
+	love.graphics.setBackgroundColor( 0, 0, 0 )
 end
 
 function love.update( dt )
-	physicsUpdate( dt )
+--	physicsUpdate( dt )
+	ents:update( dt )
 end
 
 function love.draw()
-	love.graphics.setBackgroundColor( 0, 0, 0 )
+	ents:draw()
 end

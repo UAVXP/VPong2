@@ -1,0 +1,14 @@
+players = {}
+
+player[1] - left upper
+player[2] - right upper
+player[3] - left lower
+player[4] - right lower
+...
+
+player[1] = {}
+local ply = player[1]
+	ply.x = 0
+	ply.y = 0
+	ply.image = ...newImage
+	ply.color = { r = 255, g = 255, b = 255 }
